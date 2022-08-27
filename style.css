@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dfe9f3;
+    font-family: sans-serif;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Single-price-grid-component{
+    margin: 100px auto;
+    height: 60vh;
+    width: 90vh;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+}
+/* 
+Component card */
+
+.Component-card{
+    padding: 50px 10px 10px 30px;
+
+}
+
+.Component-card h1{
+    font-size: 1.4rem;
+   color: hsl(179deg 62% 43%);
+    font-weight: bold;
+    padding-bottom: 25px;
+
+}
+
+
+.Money-back{
+    color: #92d820;
+    font-size: 1rem;
+}
+
+
+.Component-card p{
+    color: #adb5bd;
+    padding-top: 15px;
+    padding-bottom: 2rem;
+}
+
+/* finished task */
+
+
+.cards-component{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* finish card-component */
+
+
+.card1{
+    height: 40vh;
+    width: 100%;
+    background-color: hsl(179deg 62% 43%);
+    
+    padding: 30px 00px 10px 30px;
+}
+
+.card2{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(18, 202, 199);
+        
+    padding: 30px 00px 10px 30px;
+  
+}
+/* card1 and card2 done height and width and background-color */
+
+.card1 h1{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.price{
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    padding-bottom: 1.5rem;
+    
+}
+
+active{
+    font-size: 0.7rem;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+    
+  
+}
+
+.fully-access{
+    color: white;
+    padding-bottom: 3rem;
+
+}
+
+.card1 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: #a9e34b;
+    padding: 15px 100px;
+    font-weight: bold;
+    box-shadow: 00px 00px 25px rgba(00, 00, 00, 0.2);
+    border-radius: 5px;
+}
+
+/* card1 style is completed */
+
+.card2 h3{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.card2 p{
+    width: 80%;
+    color: white;
+    line-height: 1.8;
+}
+
+
+/* card 2 design has complete */
+
+
+/* Responsiv mobile Design.....happy ending */
+ 
+
+@media only screen and (max-width: 30em){
+
+    .cards-component{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .Single-price-grid-component{
+        width: 45vh;
+        height: 40vh;
+    }
+
+
+
+    
+}
+
+/* Attribution style */
+
+.attribution{
+    padding-top: 5%;
+    text-align: center;
+
+}
